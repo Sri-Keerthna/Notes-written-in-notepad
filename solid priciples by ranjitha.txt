@@ -1,0 +1,40 @@
+codingame.com  ------->link  to refer usecases
+
+SOLID Priciples:
+
+S --> single responsibility principle
+O --> open/close principle
+L --> Liskov substitution principle
+I --> Interface Segregation principle
+D --> Dependency inversion principle
+
+single responsibility principle :
+
+----> only a single responsible shd be given to a single class.
+ eg : for booking controller only booking func shd be written.
+
+----> Utility class ----> is used to writeToFile, downloadFile, readToFile funcs will be written in this class.
+
+----> Helper class ----> is used to  copy properties like bean utils has to be wriiten in this class.
+
+open/close principle :
+
+----> similar to abstraction.
+
+----> open for extension and close for modification.
+
+----> using interface as a common method for functionalities.
+
+Liskov substitution principle :
+
+----> while extending super class over subclass be careful of substitution.
+
+Interface Segregation principle :
+
+----> minimise ur interfaces by segregating the methods.
+
+Dependency inversion principle : 
+
+-----> high level modules shd not depend on low level modules.
+
+----> eg: controller shd not directly depend on service implementation instead of service interface.

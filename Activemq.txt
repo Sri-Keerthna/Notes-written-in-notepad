@@ -1,0 +1,9 @@
+ACTIVE MQ : 
+
+Messaging broker :  sometimes known as middle-ware.
+--> A message broker is an intermediary program that translates messages from the 
+formal messaging protocol of the publisher to the formal messaging protocol of the receiver. 
+-->PROTOCOL : connectionless where byte array of data from one mechine transfered to another machine.
+
+TO INSTALL  ACTIVE MQ LINK:
+https://www.devglan.com/spring-boot/spring-boot-jms-activemq-example

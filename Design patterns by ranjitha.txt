@@ -1,0 +1,11 @@
+Design patterns :
+
+Service locator bean factory :
+
+----> from controller it will go to registry class where it will check for bean name which can be any amazon pay or phonepe or gpay
+
+----> after that if it is there it will automatically connect to that bean service
+
+---->  for that u have to add one config file
+
+-----> 
