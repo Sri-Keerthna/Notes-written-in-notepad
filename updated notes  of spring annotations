@@ -1,0 +1,53 @@
+@SpringBootApplication --> which is containing both @configuration , @componentScan and @enableAutoConfiguration.
+
+@configuration ---> allow to register extra beans in the context or import additional configuration classes.
+
+@componentScan  --->  scan on the package where the application is located.
+
+In Application.constant class ---> we are creating a private constructor bcz for security purpose. 
+It cant be extended in other classes by creating objects unneccesarily.
+
+Serialization  --->is a mechanism of converting the state of an object into a byte stream. 
+Deserialization is the reverse process where the byte stream is used to recreate the 
+actual Java object in memory.
+
+@Entity  ---> entity class is mapped with table in database.
+
+ctrl+shift+t ----> to learn the description of each methods like throwable, exception etc..
+ctrl+shift   --->to open description
+
+@RestController  ----> is containing @controller and @responsebody in a single annotation. 
+If  u put @restcontroller then no need to put responseEntity in methods in controller and response body is also default one in this.
+bt in @controller it wont allow respose body in response to user.
+
+ResponseEntity represents the whole HTTP response: status code, headers, and body.
+
+@CrossOrigin  ----> allows UI to connect and communicate with our request mappings.
+
+allowed headers --> {@code Cache-Control}, {@code Content-Language}, {@code Expires},
+	 * {@code Last-Modified}, or {@code Pragma} as per the CORS spec.
+	 * <p>By default all requested headers are allowed.
+
+@Autowired  ----> inject the bean with ur current class.
+
+@Transactional   ----> it will revert the values that are stored recently in database 
+if there is an failure in functionality before commiting. eg : if from one account amt is transfer to another account at that time if any failure occurs it wont debit from account.
+Only if success it will reflect in both the accounts orelse it wont.
+
+@Override  ----> which means a subclass can implement a parent class method based on its requirement.
+
+@Repository --> which is an sterotype for persistence layer (database) which is identified as storage, searching in database.
+
+bug ---> probability to failure of code
+
+vulnerability ---> security is less and it is open to attack.
+
+logger levels  --> Off,Fatal,Error,Warn,Info,Debug,Trace.
+
+stream  --->provide the result as per the pipelined methods.
+
+actuator in application.properties ---> whether our project is up or not it will show.
+
+@injectMock --> creates the instance for that class.
+
+@Mock  -->mock the implementation for that class.
